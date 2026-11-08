@@ -16,6 +16,6 @@ public sealed partial class MainWindow : Window
         RootNavigation.Initialize(RootFrame);
 
         // The app always starts at the login page.
-        RootFrame.Navigate(typeof(LoginPage));
+        RootFrame.Navigate(typeof(BusinessIntelligencePage));
     }
 }
